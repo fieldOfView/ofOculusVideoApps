@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOculusRift\src\ofxOculusRift.cpp">
+      <Filter>addons\ofxOculusRift\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{aefbe499-c1c8-4c7c-a0cd-4138959a9007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{14036aed-e2e3-4ec5-baf9-28047771ccb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOculusRift">
+      <UniqueIdentifier>{d9b89783-a79e-423a-8133-04204497e292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOculusRift\src">
+      <UniqueIdentifier>{82678090-df69-4fe6-a6f2-33b4bc8fbbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4c81e97a-58ea-40bc-9f7e-2d92affd30b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOculusRift\src\ofxOculusRift.h">
+      <Filter>addons\ofxOculusRift\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\highlight.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\highlight.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\uv.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\uv.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
