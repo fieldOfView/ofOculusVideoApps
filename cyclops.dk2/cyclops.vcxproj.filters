@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOculusDK2\src\ofxOculusDK2.cpp">
+      <Filter>addons\ofxOculusDK2\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{aefbe499-c1c8-4c7c-a0cd-4138959a9007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{14036aed-e2e3-4ec5-baf9-28047771ccb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4c81e97a-58ea-40bc-9f7e-2d92affd30b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOculusDK2">
+      <UniqueIdentifier>{82971e67-edc4-4998-963f-9fc612f0636c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOculusDK2\src">
+      <UniqueIdentifier>{8ecc0cfd-dac3-49ab-9f4d-c33689234317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOculusDK2\src\ofxOculusDK2.h">
+      <Filter>addons\ofxOculusDK2\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\highlight.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\highlight.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\uv.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\uv.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\..\addons\ofxOculusDK2\ofxOculusDK2Lib\ofxOculusDK2Lib.vcxproj.filters" />
+  </ItemGroup>
+</Project>
